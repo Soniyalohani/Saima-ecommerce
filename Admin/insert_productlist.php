@@ -46,7 +46,7 @@ else {
       <div class="col-lg-7">
         <div class="insert-form">
       <form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
-          <h1 class="text-center text-warning">Insert New Products </h1>
+          <h1 class="text-center text-warning" style="margin-top: 120px;">Insert New Products </h1>
           <div class="form-group">
               <label for="Category"><b> Product Category:</b></label>
                 <input type="text" class="form-control" placeholder="Enter Product Category" name="product_cat" required pattern="^[A-Za-z]+">

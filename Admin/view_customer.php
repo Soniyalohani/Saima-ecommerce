@@ -1,3 +1,10 @@
+<?php 
+session_start(); 
+if(!isset($_SESSION['email'])){
+  echo "<script>window.open('login.php?not_admin=You are not an Admin!','_self')</script>";
+}
+else {
+?>  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +49,7 @@
             <?php 
             $image  = "../uploads/" . $c_image;
             ?>
-            <td> <?php echo "<img src='".$image."'class=img-thumbnail/>";?></td>
+            <td> <?php echo "<img src='".$image."'class=img-thumbnail width=100 height=100/>";?></td>
             <td> <?php echo $c_email;?></td>
             <td> <?php echo $c_pass;?></td>
             <td> <?php echo $c_phone;?></td> 
@@ -68,3 +75,4 @@
    } 
 </script>
 </html>
+<?php } ?>
