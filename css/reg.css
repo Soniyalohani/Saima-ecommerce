@@ -1,0 +1,23 @@
+.wrapper {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center; }
+
+.register-container{
+    margin: 80px 114px 0px;
+    width: 630px;
+
+    }
+
+.register-container h1 {
+  text-align:center;
+}
+.register-container h4 {
+  text-align:center;
+}
+.cancelbtn {
+  
+  background-color: #f44336;
+}

@@ -1,0 +1,39 @@
+
+body {
+  overflow-x: hidden;
+  margin: 0px;
+  border: 0px;
+}
+#sidebar{
+  /*width: 300px;
+  height:1000px;*/
+  background-color: black;
+  width: 250px;
+
+
+ /* float:left;*/
+}
+ul li{
+  padding:27px;
+  border-bottom: 2px solid grey;
+  list-style:none;
+  color: white;
+}
+a {
+    color: #fff;
+}
+ul li:hover{
+background: grey;
+}
+li span{
+  font-size: 10px;
+}
+.add-btn{
+  float: right;
+  margin-top:30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+.text-warning{
+  margin-top: 72px;
+}
