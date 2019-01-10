@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php include('include/main.php');?>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php include('include/connect.php');?>
 <?php include('include/main.php');?>
 <?php include('include/header.php');?>
